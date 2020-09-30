@@ -1,8 +1,25 @@
-body {
+* {
     border:1px solid black;
 }
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family:'Roboto Mono', monospace;
+    text-align:center;
+}
+
 nav a {
     background:#5ED3EB;
+    padding:10px 10px 20px 20px;
+    color:white;
+    border-radius:20px;
+    margin:2% 2% 20% 5%;
+    text-decoration:none;
+    width:5px;
+    height:15px;
 }
 
 nav a:first-child {
@@ -11,4 +28,40 @@ nav a:first-child {
 
 nav a:last-child {
     background:#ffcd69;
+}
+
+h1 {
+    font-family:"Chelsea Market", cursive;
+    font-size:2rem;
+}
+
+footer {
+    background:#f9e7dc;
+}
+
+.park-intro {
+    display:inline-block;
+    margin-left:35%;
+    margin-bottom:3%;
+    width:65%;
+    height:10%;
+}
+
+.main-body {
+    background:#ddb9a3;
+    color:white;
+    margin-bottom:3%;
+}
+
+.intro-img {
+    display:inline-block;
+    margin:5%;
+    border-radius:100%;
+    height:45%;
+    width:45%;
+}
+
+.img-container {
+    margin-right:70%;
+    display:inline-block;
 }
